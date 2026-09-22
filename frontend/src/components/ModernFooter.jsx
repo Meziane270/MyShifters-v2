@@ -33,7 +33,7 @@ const ModernFooter = () => {
               {[Facebook, Linkedin, Instagram].map((Icon, idx) => (
                 <a 
                   key={idx}
-                  href="#"
+                  href="frontend/src/components#"
                   style={{
                     width: '40px',
                     height: '40px',
@@ -95,7 +95,7 @@ const ModernFooter = () => {
               {['Demander du personnel', 'Tarifs', 'Comment ça marche', 'FAQ'].map((link) => (
                 <li key={link}>
                   <a 
-                    href="#"
+                    href="frontend/src/components#"
                     className="body-md"
                     style={{ 
                       color: 'var(--text-secondary)',
@@ -155,7 +155,7 @@ const ModernFooter = () => {
           </p>
           <div style={{ display: 'flex', gap: '24px' }}>
             <a 
-              href="#" 
+              href="frontend/src/components#"
               className="body-sm"
               style={{ 
                 color: 'var(--text-secondary)',
@@ -168,7 +168,7 @@ const ModernFooter = () => {
               Mentions légales
             </a>
             <a 
-              href="#" 
+              href="frontend/src/components#"
               className="body-sm"
               style={{ 
                 color: 'var(--text-secondary)',
@@ -181,7 +181,7 @@ const ModernFooter = () => {
               Confidentialité
             </a>
             <a 
-              href="#" 
+              href="frontend/src/components#"
               className="body-sm"
               style={{ 
                 color: 'var(--text-secondary)',
