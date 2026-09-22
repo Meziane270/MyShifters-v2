@@ -1,0 +1,9 @@
+/* MyShifters App Styles */
+.App {
+  min-height: 100vh;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
